@@ -1,0 +1,187 @@
+.gradient-background {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#header{
+	background-color: #f4ae5fa8;
+	
+	
+}
+
+.card{
+	background-color: #d35d1800;
+	border-radius: 5%;
+}
+
+.text{
+	background-color: rgb(240, 207, 207);
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-family:initial;
+	
+}
+
+.shop-image{
+	 background-color: #dee73c83;
+	 border-radius: 5%;
+	
+}
+
+
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#btn1{
+	background-color: #d9d61857;
+}
+
+#color1{
+
+  color: #a1930e;
+  font-size: 35px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 435px;
+  
+}
+
+
+
+#color2 {
+  color: #724604;
+  font-size: 35px;
+  height: 435px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+#color3 {
+color: #0eefcaf9;
+  font-size: 35px;
+  height: 435px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#text1{
+	background-color:  rgb(240, 207, 207);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.embroidery-fullwidth {
+  width: 100%;
+  padding: 3rem 5%;
+  background-color: #fffdfa;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  
+}
+
+.modern-footer-text {
+  font-family: 'TanTangkiwood', serif;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 5rem;
+}
+
+.modern-footer-text h1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f5a623;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  font-family: 'TanTangkiwood', serif;
+}
+
+.modern-footer-text h1 u {
+  align-items: center;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 7px;
+}
+
+.modern-footer-text p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.modern-footer-text svg.icon {
+  width: 26px;
+  height: 26px;
+  stroke: #f5a623;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modern-footer-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .modern-footer-text p {
+    font-size: 1rem;
+    gap: 12px;
+  }
+
+  .modern-footer-text svg.icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rouge+Script&display=swap');
+
+
+.text{
+	font-family: 'TanTangkiwood', serif;
+}
+
+@font-face {
+  font-family: 'TanTangkiwood';
+  src: url('/fonts/TanTangkiwood.woff2') format('woff2'),
+       url('/fonts/TanTangkiwood.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
