@@ -1,105 +1,102 @@
 .gradient-background {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-body{
-    background-color: whitesmoke;
+body {
+  background-color: whitesmoke;
 }
 
-#header{
-	background-color: #f4ae5fa8;
-	
-	
+#header {
+  background-color: #f4ae5fa8;
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  top: 20px; /* Abstand von oben */
+  left: 40px; /* Abstand von links */
+
+  width: 250px; /* Größe vom Logo – hier kannst du spielen */
+  height: auto;
+  /* optional, damit man nichts „aus Versehen“ anklickt:
+  pointer-events: none;
+  */
 }
 
-.card{
-	background-color: #d35d1800;
-	border-radius: 5%;
+.card {
+  background-color: #d35d1800;
+  border-radius: 5%;
 }
 
-.text{
-	background-color: rgb(240, 207, 207);
-	text-align: center;
-	margin: auto;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-family:initial;
-	
+.text {
+  color: rgb(167, 132, 175);
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: initial;
 }
 
-.shop-image{
-	 background-color: #dee73c83;
-	 border-radius: 5%;
-	
+.shop-image {
+  background-color: #dee73c83;
+  border-radius: 5%;
 }
-
-
-
 
 .carousel-item img {
-    height: 500px;
-    object-fit: cover;
+  height: 500px;
+  object-fit: cover;
 }
 
-#btn1{
-	background-color: #d9d61857;
+#btn1 {
+  background-color: #d9d61857;
 }
 
-#color1{
-
+#color1 {
   color: #a1930e;
   font-size: 35px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   height: 435px;
-  
 }
-
-
 
 #color2 {
   color: #724604;
   font-size: 35px;
   height: 435px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
-
-
 
 #color3 {
-color: #0eefcaf9;
+  color: #0eefcaf9;
   font-size: 35px;
   height: 435px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-
-
-#text1{
-	background-color:  rgb(240, 207, 207);
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 18px;
+#text1 {
+  background-color: rgb(240, 207, 207);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
 }
 
-
-
-   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .embroidery-fullwidth {
   width: 100%;
@@ -108,16 +105,15 @@ color: #0eefcaf9;
   box-sizing: border-box;
   display: flex;
   text-align: center;
-  
 }
 
 .modern-footer-text {
-  font-family: 'TanTangkiwood', serif;
-  color: #333;
+  font-family: "TanTangkiwood", serif;
+  color: rgb(136, 75, 151);
   max-width: 1200px;
   margin: 0 auto;
   line-height: 1.6;
-  font-size: 5rem;
+  font-size: 500px;
 }
 
 .modern-footer-text h1 {
@@ -126,10 +122,10 @@ color: #0eefcaf9;
   gap: 15px;
   font-size: 2rem;
   font-weight: 700;
-  color: #f5a623;
+  color: #dd931b;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
-  font-family: 'TanTangkiwood', serif;
+  font-family: "TanTangkiwood", serif;
 }
 
 .modern-footer-text h1 u {
@@ -142,7 +138,7 @@ color: #0eefcaf9;
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 1.2rem;
   flex-wrap: wrap;
 }
@@ -150,7 +146,7 @@ color: #0eefcaf9;
 .modern-footer-text svg.icon {
   width: 26px;
   height: 26px;
-  stroke: #f5a623;
+  stroke: #dd931b;
   flex-shrink: 0;
 }
 
@@ -171,17 +167,16 @@ color: #0eefcaf9;
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rouge+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rouge+Script&display=swap");
 
-
-.text{
-	font-family: 'TanTangkiwood', serif;
+.text {
+  font-family: "TanTangkiwood", serif;
 }
 
 @font-face {
-  font-family: 'TanTangkiwood';
-  src: url('/fonts/TanTangkiwood.woff2') format('woff2'),
-       url('/fonts/TanTangkiwood.woff') format('woff');
+  font-family: "TanTangkiwood";
+  src: url("/fonts/TanTangkiwood.woff2") format("woff2"),
+    url("/fonts/TanTangkiwood.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
